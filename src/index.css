@@ -1,0 +1,142 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body,#root,.app{
+  width: 100%;
+  height: 100%;
+}
+.home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.heads{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: red;
+  color: #fff;
+  display: flex;
+}
+.heads span{
+  margin-left: 10px;
+}
+.box{
+  width: 200px;
+  height: 80%;
+  margin-left: 20px;
+  margin-top: 5px;
+  background: #fff;
+}
+.box input{
+  border:none;
+}
+.main{
+  width: 100%;
+  flex: 1;
+  overflow: auto
+}
+.foots{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: red;
+  color: #fff;
+}
+.head{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.head span{
+  width: 25%;
+  text-align: center;
+}
+.active{
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+}
+.shen{
+  width: 100%;
+  height: 100%;
+}
+.my{
+  width: 100%;
+  height: 100%;
+}
+.he{
+  width: 90%;
+  height: 70px;
+  border-bottom: 1px solid #aaa;
+  margin-left: 10px;
+  line-height: 70px;
+  font-size: 16px;
+}
+.mini{
+  width: 100%;
+  height: 100%;
+}
+.mini span{
+  width: 50px;
+  font-size: 22px;
+  margin-left: 122px;
+  line-height: 70px;
+}
+.biao{
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.dls{
+  width: 20%;
+  text-align: center;
+  margin-top: 15px;
+}
+.kuai{
+  width: 100%;
+  height: 150px;
+  background: pink;
+}
+.lei{
+  width: 100%;
+  height: 100%;
+}
+.quan{
+  width: 100%;
+  height: 50px;
+  overflow-x: scroll;
+  border-bottom: 1px solid #aaa;
+}
+.quan .sroll{
+  width: 150%;
+  height: 100%;
+  line-height: 50px;
+  /* overflow-x: scroll; */
+  display: flex;
+}
+.sroll span{
+  width: 15%;
+  text-align: center;
+}
+.erj{
+  width: 100%;
+  height: 100%;
+}
+.dls{
+  width: 200px;
+  height: 120px;
+  background: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dls dd img{
+  width: 100px;
+  height: 100px;
+}
